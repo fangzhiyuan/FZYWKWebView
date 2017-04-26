@@ -16,6 +16,7 @@
 		216B83651EB0897D004609FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B83631EB0897D004609FC /* LaunchScreen.storyboard */; };
 		216B83701EB0897E004609FC /* FZYWKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B836F1EB0897E004609FC /* FZYWKWebViewTests.m */; };
 		216B837B1EB0897E004609FC /* FZYWKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B837A1EB0897E004609FC /* FZYWKWebViewUITests.m */; };
+		216B838D1EB08C7C004609FC /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B838C1EB08C7C004609FC /* WKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		216B83761EB0897E004609FC /* FZYWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZYWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216B837A1EB0897E004609FC /* FZYWKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYWKWebViewUITests.m; sourceTree = "<group>"; };
 		216B837C1EB0897E004609FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216B838B1EB08C7C004609FC /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewController.h; path = ../WKWebViewController.h; sourceTree = "<group>"; };
+		216B838C1EB08C7C004609FC /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewController.m; path = ../WKWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				216B83561EB0897C004609FC /* AppDelegate.m */,
 				216B83581EB0897D004609FC /* ViewController.h */,
 				216B83591EB0897D004609FC /* ViewController.m */,
+				216B838B1EB08C7C004609FC /* WKWebViewController.h */,
+				216B838C1EB08C7C004609FC /* WKWebViewController.m */,
 				216B835B1EB0897D004609FC /* Main.storyboard */,
 				216B83611EB0897D004609FC /* Assets.xcassets */,
 				216B83631EB0897D004609FC /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216B838D1EB08C7C004609FC /* WKWebViewController.m in Sources */,
 				216B835A1EB0897D004609FC /* ViewController.m in Sources */,
 				216B83601EB0897D004609FC /* FZYWKWebView.xcdatamodeld in Sources */,
 				216B83571EB0897C004609FC /* AppDelegate.m in Sources */,
